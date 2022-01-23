@@ -1,0 +1,63 @@
+/*My main css file*/
+body {
+    margin: 40px;
+    padding: 20px;
+    background-color: rgb(0, 191, 255);
+    font-family: "Tahoma";
+    color: rgb(248, 245, 245);
+  }
+  
+  header {
+    background-color: rgb(30, 144, 255);
+    height: 90px;
+    width: 100%;
+    opacity: .75;
+    margin-bottom: 60px;
+  }
+  
+  header h1.logo {
+    margin: 5;
+    font-size: 2em;
+    color: White;
+    text-transform: capitalize;
+    text-align: flex;
+    float: center;
+  }
+  
+  header h4.logo2 {
+    color: white;
+    text-align: center;
+    height: 20px;
+    text-decoration: none;
+  }
+  
+  .container {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  
+  div.home {
+    padding: 15px 0 30px 0;
+    background-color: rgb(100, 149, 237);
+    -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+        border-radius: 5px;
+  }
+  
+  div.about {
+    padding: 20px 0 100px 0;
+    background-color: rgb(100, 149, 237);
+    -webkit-border-radius: 5px;
+      -moz-border-radius: 5px;
+        border-radius: 5px;
+  }
+  
+  .menu {
+    float: right;
+    margin-top: 10px;
+  }
+  
+  .submit{
+	  width:8%;
+  }

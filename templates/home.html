@@ -1,0 +1,14 @@
+<!--Home page-->
+
+{% extends "layout.html" %}
+{% block content %}
+<div class="home">
+    <h1>Password Strength Tester</h1>
+    <p>Skor Anda akan ditampilkan di bawah (0 hingga 25 lemah, 25 hingga 50 di bawah rata-rata, 50 hingga 75 di atas rata-rata, di atas 75 sangat baik): </p>
+	<p>Your Score : {{myName}}</p>
+	<p>{{kalimat}}</p>
+    <p><form action="{{ url_for('greet') }}" method='post'>
+         Inputkan Password yang akan di-test: <input type='text' name='myName'><br>
+        <br><input class='submit' type='submit' value='Submit'>
+        </form></p>
+{% endblock %}
